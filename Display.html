@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOX</title>
+    <style>
+        #parent {
+
+            height: 50px;
+            width: 1500px;
+            border: 1px solid;
+            background-color: #C0C0C0;
+
+        }
+
+        #child {
+            border: 1px solid #000;
+            margin-left: 700px;
+            margin-top: 15px;
+
+            width: 300px;
+        }
+
+        .box {
+            display: inline-block;
+            width: 90px;
+
+        }
+
+        a {
+            border: 1px solid;
+            border-radius: 10px;
+            background-color: rgb(242, 246, 246);
+            padding: 8px;
+            text-decoration: none;
+            color: rgb(226, 248, 24);
+            text-shadow: 1px 1px 2px black, 0 0 25px blue;
+
+        }
+
+        a:hover {
+            background-color: rgb(224, 39, 39);
+            color: white;
+
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+
+
+        a:active {
+            color: rgb(61, 21, 223);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="parent">
+        <div id="child">
+            <div>
+                <div class="box">
+                    <center>
+                        <a href="#">Home</a>
+                    </center>
+                </div>
+                <div class="box">
+
+                    <center>
+                        <a href=" #">About</a>
+                    </center>
+                </div>
+                <div class="box">
+                    <center>
+                        <a href="# ">Contact</a>
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

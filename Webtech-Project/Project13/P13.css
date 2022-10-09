@@ -1,0 +1,122 @@
+#parent {
+    border: 1px solid;
+    height: 500px;
+    width: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/CSS/Webtech-Project/Image/wood.jpg);
+   background-size: cover;
+   
+
+}
+.Bap{
+    border: 1px solid #ffffff;
+    height: 233px;
+    width: 500px;
+ display: flex;
+    
+}
+
+.child {
+    border: 1px solid;
+    border: 1px solid;
+    height: 230px;
+    width: 200px;
+   
+
+}
+
+.child1 {
+    border: 1px solid;
+    height: 230px;
+    width: 300px;
+    background-image: url(/CSS/Webtech-Project/Image/WorkingComputer.webp);
+    background-size: cover;
+   
+
+}
+
+input[type=submit],
+select {
+    border-color:#C7678A;
+    padding-left: 35%;
+    padding-right: 35%;
+    margin-left: 5%;
+    margin-top: 5%;
+    color: #ffffff;
+    background-color: #ffffff00;
+}
+.un {
+    width: 76%;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: #fff4f400;
+    /* padding: -2px -22px; */
+    border: none;
+    border-radius: 0px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid #00000000;
+    border-bottom: 2px solid #C7678A;
+    margin-left: 14px;
+    /* text-align: center; */
+    margin-bottom: 27px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.pass {
+    width: 76%;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: #8b121200;
+    /* padding: -2px -22px; */
+    border: none;
+    border-radius: 0px;
+    outline: none;
+    /* box-sizing: border-box; */
+    border: 2px solid #00000000;
+    border-bottom: 2px solid#C7678A;
+    margin-left: 14px;
+    /* text-align: center; */
+    margin-bottom: 27px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+span {
+    color: #ffffff;
+}
+
+/**/
+.topnav {
+    overflow: hidden;
+    /* background-color: #881717; */
+ 
+
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    background-color: #00000000;
+    text-align: center;
+    padding: 9px 6px 6px 17px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 1px solid transparent;
+
+}
+
+.topnav a:hover {
+    border-bottom: 3px solid #C7678A;
+}
+
+.topnav a.active {
+    border-bottom: 3px solid #C7678A;
+}

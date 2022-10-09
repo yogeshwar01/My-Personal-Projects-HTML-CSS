@@ -1,0 +1,391 @@
+@import url('http://fonts.cdnfonts.com/css/helvetica-neue-9');
+#Parent{
+    border: 1px solid;
+    height: 500px;
+    width: cover;
+    padding: 17px ;
+    background-image: url(/CSS/Webtech-Project/Image/1.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    text-align: center;
+
+}
+
+/* .Get{
+    border: 1px solid;
+    height: 30px;
+    width: 90px;
+
+}
+.Invester{
+    border: 1px solid;
+    height: 30px;
+    width: 120px;
+
+}
+
+.AddRestaurant{
+    border: 1px solid;
+    height: 30px;
+    width: 120px;
+
+}
+.Login{
+    border: 1px solid;
+    height: 30px;
+    width: 60px;
+
+}
+.Signup{
+    border: 1px solid;
+    height: 30px;
+    width: 50px;
+
+} */
+
+#link{ 
+    /* border: 1px solid white; */
+    height: 72px;
+    /* width: 1100px; */
+    width: cover;
+    /* margin-left: 500px; */
+}
+.link1{
+    margin-left: 100px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.link2{
+    margin-left: 350px;
+     text-decoration: none;
+     color: #ffffff;
+}
+
+.link3{
+    margin-left: 10px; 
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.link4{
+    margin-left: 10px; 
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.link5{
+    margin-left: 10px;
+     text-decoration: none;
+     color: #ffffff;
+}
+
+.Zomato{
+    /* border: 1px solid white; */
+     height: 50px;
+    /* width: 220px; */
+    width: cover;
+    /* background-color: rgb(187, 45, 45); */
+
+     /* margin-left: 1100px; */
+  
+    
+}
+.zomatopng{
+    /* border: 1px solid white; */
+    height: 50px;
+    width: 220px;
+    background-image: url(/CSS/Webtech-Project/Image/Zomato-PNG-Logo-White.png);
+    background-size: cover;
+   
+    margin-left: 48%;
+    margin-right: 50%;
+}
+
+.Discover{
+    /* border: 1px solid; */
+    height: 80px;
+    width: cover;
+    font-size: 25px;
+    /* text-align: center; */
+    /* margin-left: 30%; */
+    /* margin-right: 30%; */
+    /* margin-left: 280px; */
+    /* margin-top: 10px; */
+    color: #ffffff;
+    
+
+}
+.search{
+    /* border: 1px solid white; */
+    height: 50px;
+    width: cover;
+    /* display: flex; */
+    margin-left: 28%;
+    /* margin-top: 20px; */
+    /* background-color: #ffffff; */
+    /* border-radius: 10px;
+     */
+  
+}
+
+.search1{
+    /* border: 1px solid white; */
+    height: 50px;
+    width: 700px;
+    display: flex;
+    margin-left: 20%;
+    margin-right: 30%;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.Location{
+    /* border: 1px solid; */
+    height: 50px;
+    width: 250px;;
+    
+  
+
+}
+
+.locselect{
+    padding: 15px 0px;
+    /* margin-left: 10px; */
+    /* font-size: 15px; */
+    background-color: #fff;
+    border: none;
+    outline: none;
+}
+.locselect1{
+    /* padding: 15px 33px; */
+    /* margin-left: 10px; */
+    /* font-size: 15px; */
+    height: 10px;
+    width: 15px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    /* margin-top: -20px; */
+}
+
+.SearchBar{
+    /* border: 1px solid; */
+    height: 50px;
+    width: 40px;
+    
+
+}
+.searchbar1{
+    /* border: 1px solid white; */
+    height: 50px;
+    width: 520px;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    /* background-color: #fff; */
+    outline: none;
+}
+
+.container{
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    border: 1px solid;
+    height: 300px;
+    width: 350px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.card:hover{
+    transform: scale(1.04);
+}
+.card-image{
+    height: 200px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 0px 0px;
+}
+.food-1{
+    background-image: url(/CSS/Webtech-Project/Image/OrderOnline.jpg);
+    
+}
+.food-2{
+    background-image: url(/CSS/Webtech-Project/Image/Dining.jpg);
+}
+.food-3{
+    background-image: url(/CSS/Webtech-Project/Image/NightlLife.jpg);
+}
+
+#Collections{
+    /* border: 1px solid; */
+    height: 80px;
+    width: cover;
+    font-size: 25px;
+    margin-top: 50px;
+    
+    
+}
+.collections{
+    /* height: 100px; */
+    /* width: 400px;  */
+    /* border: 1px solid; */
+    margin-left: 100px;
+    margin-right:1000px ;
+
+    /* font-size: 20px; */
+}
+#Explore{
+    /* border: 1px solid; */
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+.explore{
+    /* border: 1px solid; */
+    font-size: 20px;
+    height: 48px;
+    width: 1719px;
+    /* text-align: left; */
+    display: flex;
+    margin-left: 39%;
+    margin-right: 20%;
+    
+}
+
+.allcollections{
+    /* border: 1px solid; */
+    height: 46px;
+    width: 270px;
+    font-size: 20px;
+    margin-left: 100px;
+    
+
+}
+
+.container2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card2{
+    /* border: 1px solid; */
+    height: 500px;
+    width: 250px;
+    margin: 10px;
+    border-radius: 15px;
+}
+/* .card2:hover{
+    transform: scale(1.04);
+} */
+.card2-image{
+    height: 500px;
+    /* margin-bottom: 15px; */
+    background-size: cover;
+
+    border-radius: 15px 15px 15px;
+}
+.food-11{
+    background-image: url(/CSS/Webtech-Project/Image/OrderOnline.jpg);
+    
+}
+.food-22{
+    background-image: url(/CSS/Webtech-Project/Image/Dining.jpg);
+}
+.food-33{
+    background-image: url(/CSS/Webtech-Project/Image/NightlLife.jpg);
+}
+.food-44{
+    background-image: url(/CSS/Webtech-Project/Image/NightlLife.jpg);
+}
+.img{
+    border: 1px solid #db0707;
+    height: 500px;
+    width: 250px;
+    border-radius: 15px;
+}
+.img2{
+margin-top: 200px;
+margin-right: 100px;
+font-size: 15px;
+color: #ffffff;
+}
+.img1{
+    margin-top: 400px;
+margin-right: 50px;
+font-size: 20px;
+color: #ffffff;
+
+}
+
+#Place{
+    /* border: 1px solid; */
+    height: 260px;
+    width: 970px;
+    padding: 10px;
+    display: flex;
+    margin-left: 40%;
+    margin-right: 525px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.Baner{
+    border: 1px solid #5d555578;
+    border-radius: 10px;
+    height: 60px;
+    width: 294px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+   
+   
+    
+}
+.baner1{
+    /* border: 1px solid; */
+    height: 40px;
+    width: 240px;
+    /* display: flex; */
+    padding: 10px;
+}
+
+.h5{
+    /* border: 1px solid; */
+    height: 20px;
+    width: 223px;
+    margin-top: -2px;
+}
+.p{
+    /* border: 1px solid; */
+    height: 20px;
+    width: 223px;
+    margin-top: -20px;
+}
+
+.baner2{
+    /* border: 1px solid; */
+    height: 60px;
+    width: 30px;
+}
+
+.anchorplace{
+    height: 70px;
+    width: 318px;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.anchorplace:hover{
+    box-shadow: -2px 7px 10px 0px black;
+    transform: scale(1.04);
+}

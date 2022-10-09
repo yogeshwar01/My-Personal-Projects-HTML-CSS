@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P14</title>
+    <link rel="stylesheet" href="./P14.css">
+</head>
+
+<body>
+    <div id="parent">
+        <p id="p">FEEDBACK FORM</p>
+        <div class="child">
+
+            <div class="son">
+                <label for="CustmerName" style="margin-left: 20px;">Customer Name</label><span
+                    style="margin-left: 40px;">:</span>
+                <input type="text" id="user" name="Custname" placeholder="Customer Name" />
+
+                <label for="Product" id="product"> Products Your Like </label><span style="margin-left: 40px;color: #ffffff;">:</span>
+                <select id="product1" name="Product" style="width:180px;  background-color: #161114;;">
+                    <option value="none" selected>Products</option>
+                    <option value="male">Iphone</option>
+                    <option value="female">Samsung</option>
+                    <option value="other">other</option>
+                </select><br><br>
+
+                <label for="Emailinput" style="margin-left: 20px;">Email Address</label><span
+                    style="margin-left: 50px;">:</span>
+                <input type="text" id="user" name="Address" placeholder="Email@exampl.com" /><br><br>
+
+                <label for="organizationinput" style="margin-left: 20px;">Organization</label><span
+                    style="margin-left: 60px;">:</span>
+                <input type="text" id="user" name="Organization" placeholder="Organization" /><br>
+
+
+            </div>
+            <div class="son2">
+                <div class="son3">
+                    <label for="RatingCompuny" style="margin-left: 20px;">Rating For Company </label><span style="margin-left: 10px;">:</span>
+                    <input type="radio" name="radio" id="Radio"><span>Very High</span><br>
+                    <input type="radio" name="radio" id="Radio1"><span>High</span><br>
+                    <input type="radio" name="radio" id="Radio1"><span>Medium</span><br>
+                    <input type="radio" name="radio" id="Radio1"><span>Low</span><br>
+                    <input type="radio" name="radio" id="Radio1"><span>Very Low</span>
+                </div>
+                <div class="son4">
+                    <label for="RatingCompuny" style="margin-left: 20px;">Rating For Support</label><span style="margin-left: 10px;">:</span>
+                    <input type="radio" name="radio" id="Radio"><span>Very Good</span><br>
+                    <input type="radio" name="radio" id="Radio2"><span>Good</span><br>
+                    <input type="radio" name="radio" id="Radio2"><span>Average</span><br>
+                    <input type="radio" name="radio" id="Radio2"><span>Fair</span><br>
+                    <input type="radio" name="radio" id="Radio2"><span>Poor</span>
+                </div>
+
+            </div>   
+            <label for="CustomerEnquiry" style="color:#fff ;margin-left: 30px;" >CustomerEnquiry </label><span style="margin-left: 20px;color: #ffffff;">:</span>
+            <div class="son5">
+             
+                <textarea name="Enquiry" id="enquiry" rows="5" cols="70" placeholder="Your Queries"></textarea><br><br>
+                <input type="submit" value="Submit"><input type="reset" value="reset">
+
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

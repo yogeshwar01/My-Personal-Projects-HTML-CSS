@@ -1,0 +1,102 @@
+#parent{
+   /* border: 1px solid;
+   height: 500px;
+   width:auto ;  
+   align-items: center; */
+    /* justify-content: space-evenly; */
+    /* font-size: 13px; */
+    /* box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04); */
+  
+  
+}
+
+/* .child{ */
+    /* background-color: #00FFBF;
+    border: 1px solid;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 100px;
+    /* padding-top: 10px;
+    padding-bottom: 0%;
+    padding-right: 0%; */
+    /* position: absolute;
+            top: 50%;
+            left: 10%;
+            transform: translateY(-50%);
+            width: 30%;   */
+            /* align-items: center;   
+            justify-content: space-evenly; */ 
+
+/* } */
+
+input[type=text],
+select{
+    box-shadow: 5px 5px 0px -3px #333;
+    text-align: left;
+    padding-left: 2%;
+    padding-right: 0%;
+}
+input[type=text1],
+select{
+    box-shadow: 5px 5px 0px -3px #333;
+    padding-left: 2%;
+    padding-right: 48%;
+    text-align: left;
+}
+input[type=password],
+select{
+    box-shadow: 5px 5px 0px -3px #333;
+    padding-left: 2%;
+    padding-right: 48%;
+    text-align: left;
+}
+input[type=textarea],
+select{
+    box-shadow: 5px 5px 0px -3px #333;
+    padding-left: 2%;
+    padding-right: 48%;
+    text-align: left;
+}
+input[type=button],
+select{
+    box-shadow: 5px 5px 0px -3px #333;
+    padding-left: 18px;
+   
+    
+}
+.a {
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: #15ff00;
+    padding: 8px;
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(41, 47, 86);
+
+}
+
+.a:hover {
+    background-color: #126e0a;
+    color: white;
+
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+
+.a:active {
+    color: rgb(179, 171, 27);
+}
+
+.field{
+    background-color: aqua;
+    align-items: center;   
+    width: 200px; 
+    height: 350px;      
+    /* top: 20%;       */
+
+    border-radius: 5px;
+    box-shadow: 5px 5px 0px 3px #333;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box {
+            height: 400px;
+            width: 400px;
+            border: 1px solid;
+            margin-left: 100px;
+            background-color: rgb(199, 124, 26);
+
+        }
+
+        #ball {
+            height: 100px;
+            width: 100px;
+            border: 1px solid;
+            border-radius: 50%;
+             margin-top: 100px;
+            animation-name: ball;
+            animation-duration: 5s;
+            animation-delay: 1s;
+            animation-iteration-count: infinite;
+            position: relative;
+
+        }
+
+        @keyframes ball {
+            0% {
+                top: 0;
+                left: 0;
+                background-color: aqua;
+                border-radius: 30%;
+
+            }
+
+            25% {
+                left: 500px;
+                top: 0;
+                background-color: rgb(44, 209, 77);
+                border-radius: 10%;
+
+            }
+
+            50% {
+                top: 500px;
+                left: 500px;
+                background-color: yellowgreen;
+            }
+
+            75% {
+                left: 0;
+                top: 500px;
+                background-color: rgb(165, 35, 56);
+            }
+
+            100% {
+                top: 0;
+                left: 0;
+                background-color: blue;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="parent">
+        <div id="ball"></div>
+        <div id="box"></div>
+    </div>
+</body>
+
+</html>

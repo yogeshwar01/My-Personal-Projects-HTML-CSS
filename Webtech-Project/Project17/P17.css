@@ -1,0 +1,104 @@
+#Parent{
+    border: 1px solid;
+    height: 500px;
+    width: cover;
+    /* display: flex; */
+    /* text-align: center; */ background-color: #000000;
+
+}
+#menu{
+    /* border: 1px solid; */
+    height: 90px;
+    width: cover;
+    /* justify-content: space-evenly; */
+    display: flex;
+    text-align: center;
+    background-color: #fff;
+   
+}
+.TataImg{
+    /* border: 1px solid; */
+    height: 90px;
+    width: 355px;
+   background-image: url(/CSS/Webtech-Project/Image/TCS.webp);
+   background-size: cover;
+   /* padding-left: 40px; */
+   /* background-color: rgb(153, 23, 23); */
+}
+.link1{
+    /* border: 1px solid; */
+    height: 40px;
+    width: 140px;
+    text-decoration: none;
+    margin-top: 25px;
+}
+.link2{
+    /* border: 1px solid; */
+    height: 40px;
+    width: 150px;
+    text-decoration: none;
+    margin-top: 25px;
+}
+.link3{
+    /* border: 1px solid; */
+    height: 40px;
+    width: 100px;
+    text-decoration: none;
+    margin-top: 25px;
+}
+.searchLogo{
+    /* border: 1px solid; */
+    height: 40px;
+    width: 40px;
+    margin-top: 25px;
+    
+
+}
+.tataLogo{
+    /* border: 1px solid; */
+    height: 50px;
+    width: 80px;
+    background-image: url(/CSS/Webtech-Project/Image/TCS2.webp);
+    background-size: cover;
+    margin-top: 20px;
+
+}
+.btn1{
+    margin-left: 70%;
+    /* background-color: #b32626; */
+    
+}
+#Parent2{
+    border: 1px solid;
+    height: 426px;
+    width: cover;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly; 
+    margin-top: 10px;
+    background-color: #000000;
+    
+}
+.box{
+    border: 1px solid;
+    height: 370px;
+    width: 220px;
+    margin-top: 10px;background-color: #000000;
+    color: #ffffff;
+}
+.imag{
+    border: 1px solid;
+    height: 220px;
+    width: 220px;
+}
+
+.img1{
+    background-image: url(/CSS/Webtech-Project/Image/CivilEngWork.webp);
+}
+.img2{
+    background-image: url(/CSS/Webtech-Project/Image/WorkTogaher.webp);
+    background-size: cover;
+}
+.img3{
+    background-image: url(/CSS/Webtech-Project/Image/TalkingEachOther.webp);
+}

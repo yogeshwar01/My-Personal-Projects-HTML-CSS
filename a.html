@@ -1,0 +1,110 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A</title>
+    <style>
+        #main {
+            background-color: rgb(200, 136, 23);
+            height: 1000px;
+        }
+
+        #nev {
+            background-color: orangered;
+            border: 1px solid;
+            height: 100px;
+            width: 100%;
+        }
+
+        #nev_child {
+            border: 1px solid;
+            border-color: orangered;
+            height: 70px;
+            width: 400px;
+            margin-left: 750px;
+            margin-top: 15px;
+        }
+
+        .button {
+            margin-top: 20px;
+            margin-left: 40px;
+
+            display: inline-block;
+        }
+
+        .button a {
+            border-radius: 10px;
+            padding: 15px;
+            color: white;
+            text-decoration: none;
+            background-color: rgb(8, 8, 8);
+
+        }
+
+        #profile {
+            border-radius: 20px;
+            background-color: rgb(53, 174, 190);
+            margin-top: 20px;
+            margin-left: 450px;
+            border: 1px solid;
+            height: 600px;
+            width: 400px;
+        }
+
+       /* #image {
+            border: 1px solid;
+            height: 250px;
+            width: 250px;
+            margin-top: 20px;
+            margin-left: 75px;
+            border-radius: 50%;
+
+        }*/
+        img {  
+             width: 200px;  
+             height: 200px;  
+             margin-top: 10px;
+             margin-left: 100px;
+             border-radius: 50%;
+            } 
+
+        #details {
+            border-radius: 20px;
+            background-color: rgb(221, 183, 133);
+            margin-top: 20px;
+            margin-left: 25px;
+            border: 1px solid;
+            height: 250px;
+            width: 350px;
+        }
+
+        h3 {
+            margin-left: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div id="nev">
+            <div id="nev_child">
+                <div class="button"><a href="#">Button1</a></div>
+                <div class="button"><a href="#">Button2</a></div>
+                <div class="button"><a href="#">Button3</a></div>
+            </div>
+        </div>
+        <div id="profile">
+            <div id="image">
+                <img src="./Image/dog.jpg" alt="">
+            </div>
+            <div id="details">
+                <h3> Name : Yogesh Patil</h3>
+                <h3> Address : Islampur </h3>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

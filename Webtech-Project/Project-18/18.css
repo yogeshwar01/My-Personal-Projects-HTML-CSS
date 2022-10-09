@@ -1,0 +1,159 @@
+#Parent{
+    /* border: 1px solid; */
+    /* height: 600px; */
+    width: cover;
+}
+#menu{
+    /* border: 1px solid; */
+    height: 100px;
+    width: cover;
+    display: flex;
+    text-align: center;
+}
+.ByjusImg{
+    /* border: 1px solid; */
+    height: 100px;
+    width: 450px;
+    background-image: url(/CSS/Webtech-Project/Image/Byjuslogo-4.png);
+    background-size: cover;
+}
+.link1{
+    /* border: 1px solid; */
+    height: 30px;
+    width: 150px;
+    margin-top: 30px;
+    text-decoration: none;
+    
+}
+.link2{
+    /* border: 1px solid; */
+    height: 30px;
+    width: 150px;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-left: 10px;
+    padding: 10px;
+    background-color: #fe890d;
+    color: #fff;
+    
+}
+.link2:active{
+    background: #ca5f12;
+    }
+/* .link2{
+    border: 1px solid;
+    height: 30px;
+    width: 150px;
+}
+.link1{
+    border: 1px solid;
+    height: 30px;
+    width: 150px;
+} */
+.btn{
+    /* border: 1px solid; */
+    /* height: 50px;
+    width: 150px; */
+    /* border-radius: 25px; */
+    margin-top: 25px;
+    margin-left: 10px;
+
+}
+#parent2{
+    /* border: 1px solid; */
+    height: 600px;
+    width: cover;
+    display: flex;
+}
+.box{
+    /* border: 1px solid; */
+    height: 600px;
+    width: 700px;
+    background-image: url(/CSS/Webtech-Project/Image/Byjus\ Banner\ Image\ 1.png);
+    background-size: cover;
+    background-color: #6B2775;
+}
+.box1{
+    /* border: 1px solid; */
+    height: 600px;
+    width: 600px;
+    text-align: center;
+    background-color: #6B2775;
+    color: #ffffff;
+}
+.Form{
+    border: 1px solid;
+    height: 450px;
+    width: 500px;
+    margin-left: 40px;
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+.h3{
+    color: #000000;
+}
+/* .No{
+    border: 1px solid;
+    height: 40px;
+    width: 300px;
+    margin-left: 80px;
+} */
+.No1{
+    /* border: 1px solid  #ffffff00; */
+    height: 40px;
+    width: 304px;
+    display: flex;
+    margin-left: 95px;
+  
+    /* justify-content: space-evenly; */
+}
+input[type=text]{
+    height: 35px;
+    width: 300px;
+    outline: none;
+}
+input[type=text1]{
+    height: 35px;
+    width: 205px;
+    outline: none;
+
+}
+.OTP{
+    /* border: 1px solid; */
+ 
+    border-radius: 20px;
+    
+    
+    /* margin-top: 10px; */
+}
+input[type=email]{
+    height: 35px;
+    width: 300px;
+    outline: none;
+}
+.State{
+    /* border: 1px solid; */
+    height: 40px;
+    width: 300px;
+    outline: none;
+    /* margin-right: 40px; */
+}
+
+.Try{
+    border: 1px solid;
+    height: 40px;
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: #fe890d;
+    color: #fff;
+    /* text-align: center; */
+    /* padding: 10px 80px 10px 20px; */
+   
+}
+.Try:active{
+background: #ca5f12;
+}
+

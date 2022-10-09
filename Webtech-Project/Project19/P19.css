@@ -1,0 +1,123 @@
+#parent{
+    /* border: 1px solid; */
+    height: 100px;
+    width: cover;
+    border-bottom: 1px solid;
+    /* box-shadow: 1px 4px 14px -7px black; */
+
+}
+
+#child{
+    /* border: 1px solid; */
+    height: 60px;
+    width: 800px;
+    display: flex;
+}
+
+.HPLogo{
+    /* border: 1px solid; */
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-top: 4px;
+    background-image: url(/CSS/Webtech-Project/Image/hp-logo-white-png-transparent-png.webp);
+    background-size:cover;
+
+}
+
+.SearchBox{
+    /* border: 1px solid; */
+    height: 40px;
+    width: 700px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+input[type=search]{
+    height: 40px;
+    width: 650px;
+    font-size: 20px;
+}
+
+#child2{
+    /* border: 1px solid; */
+    height: 30px;
+    width: 870px;
+}
+.Link{
+    /* border: 1px solid; */
+    height: 20px;
+    width: 869px;
+    margin-top: 5px;
+    justify-content: space-between;
+}
+.Link1{
+    /* border: 1px solid; */
+    height: 60px;
+    width: 100px;
+    margin-left: 90px;
+    color: black;
+    text-decoration: none;    
+
+}
+.Link1:active{
+    color: red;
+}
+.Link2{
+    /* border: 1px solid; */
+    height: 50px;
+    width: 100px;
+    margin-left: 5px;
+    color: black;
+    text-decoration: none;
+}
+.Link2:active{
+    color: red;
+}
+
+.Logo{
+    /* border: 1px solid; */
+    height: 70px;
+    width: 200px;
+    margin-left: 82%;
+    margin-top: -6%;
+    text-align: center;
+
+    
+}
+.container{
+    /* margin-top: 20px; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.card{
+    /* border: 1px solid; */
+    height: 290px;
+    width: 350px;
+    margin: 10px;
+    /* border-radius: 15px; */
+}
+.card:hover{
+    transform: scale(1.04);
+}
+.card-image{
+    height: 290px;
+    margin-bottom: 15px;
+    background-size: cover;
+    /* border-radius: 15px 0px 0px; */
+}
+.Laptop-1{
+    background-image: url(/CSS/Webtech-Project/Image/LaptopIMG1.webp);
+  
+    
+}
+.Laptop-2{
+    background-image: url(/CSS/Webtech-Project/Image/LaptopIMG2.webp);
+}
+.Laptop-3{
+    background-image: url(/CSS/Webtech-Project/Image/LaptopIMG3.webp);
+}
