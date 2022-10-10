@@ -7,32 +7,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ASS6</title>
     <style>
-       
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: content-box;
-    outline: none;
-    font-family: Tangerine,sans-serif;
-}
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: content-box;
+            outline: none;
+            font-family: Tangerine, sans-serif;
+        }
 
-body{
-    background: url('Lione.jpg')no-repeat top center;
-    background-size: cover;
-    height: 100vh;
-     /* viewport height: */
+        body {
+            background: url('Lione.jpg')no-repeat top center;
+            background-size: cover;
+            height: 100vh;
+            margin-top: 50px;
+            /* viewport height: */
+           position: absolute;
+           margin-left: 15%;
 
-}
+        }
 
         #parent {
-            height: 873px;
-            width: 1130px;
+            height: 460px;
+            width: 965px;
             border: 1px solid;
             display: flex;
             /* justify-content: center; */
             /* background-color: rgb(7, 13, 15); */
             flex-wrap: wrap;
-            background-image: url(./ProjectDemo/1512746055211.jpg);
+            /* background-image: url(/Webtech-Project/Image/lion.jpg); */
             background-size: cover;
 
 
@@ -49,19 +51,25 @@ body{
 
         */
         .img {
-            height: 580px;
-            width: 323px;
-            border: 1px solid;
-            border: 1px solid #03bfcb;
+            height: 460px;
+            width: 461px;
+            border-right: 1px solid;
+            /* border: 1px solid; */
+            /* border: 1px solid #03bfcb; */
             /* border-radius: 50%; */
-            background-image: url(./ProjectDemo/Lione.jpg);
+            background-image: url(/Webtech-Project/Image/OrderOnline.jpg);
             background-size: cover;
+            /* margin-left: 61px; */
+            /* margin-top: 100px; */
         }
 
         .form1 {
-            padding-top: 40px;
+            /* padding-top: 40px; */
         }
 
+        form {
+            margin-left: 50px;
+        }
 
         .text {
             color: #110d0b;
@@ -71,14 +79,14 @@ body{
             margin: 7px 0;
             display: inline-block;
             border: 1px solid #03bfcb00;
-            border-radius:12px;
+            /* border-radius:12px; */
             background-color: #ffffff;
         }
 
         input[type=text],
         select {
-            width: 105%;
-            color:#ffffff;
+            width: 80%;
+            color: #ffffff;
             padding: 12px 20px;
             margin: 7px 0;
             display: inline-block;
@@ -91,7 +99,7 @@ body{
 
         input[type=date],
         select1 {
-            width: 94%;
+            width: 70%;
             color: #ffffff;
             padding: 12px 20px;
             margin: 7px 0;
@@ -100,9 +108,13 @@ body{
             border-radius: 0px;
             background-color: #ffffff00;
         }
+        .drop{
+            color: #110d0b;
+            background-color: rgb(247, 241, 241);
+        }
 
         input[type=submit] {
-            width: 105%;
+            width: 72%;
             background-color: #139a18cc;
             color: white;
             padding: 14px 20px;
@@ -118,12 +130,13 @@ body{
 
         div {
 
-            height: 632px;
-            width: 414px;
-            border-radius: 5px;
+            height: 460px;
+            width: 500px;
+            /* border-radius: 5px; */
+            /* margin-top: 100px; */
             background-color: #1e4240db;
-            padding: 92px;
-            border: 1px solid #03bfcb;
+            /* padding: 92px; */
+            /* border: 1px solid #03bfcb; */
             /* box-shadow: 5px 6px 4px 5px #333; */
         }
 
@@ -143,7 +156,8 @@ body{
     <div id="parent">
 
         <div class="img">
-            <p class="sign1" align="center" style="font-size: 40px;color: #ede00a;margin-right: 240px;">login</p>
+            <p class="sign1" align="center"
+                style="font-size: 60px;color: #ffff00;margin-right: 240px;margin-top: 10px;text-shadow: 3px 0px 13px black;;">login</p>
             <!-- <p style="color: white;">Lorem ipsum dolor sit amet consectetur</p> -->
         </div>
 
@@ -152,39 +166,44 @@ body{
         <div class="form1" id="box2">
 
 
-            <p align-self: center style="font-size: 73px;padding-left: 43%;">&#129409;</p>
-            <p style="font-size: 42px;padding-left: 17%;color: #ede00a;">Registration Form</p>
+            <!-- <p align-self: center style="font-size: 73px;padding-left: 43%;">&#129409;</p> -->
+            <p style="font-size: 42px;padding-left: 17%;color: #ffff00;">Registration Form</p>
 
             <form action="">
                 <!-- <label style="color: white;" for="fname">Enter Name</label> -->
-                <input style="border-bottom:3px solid;font-size: 20px;" class="text" type="text" id="fname" name="firstname"
-                placeholder="Enter Name here.." > 
+                <input style="border-bottom:3px solid;font-size: 20px;" class="text" type="text" id="fname"
+                    name="firstname" placeholder="Enter Name here..">
 
                 <!-- <label style="color: white;" for="Email">Emali</label> -->
-                <input style="border-bottom:3px solid;font-size: 20px;" class="text" type="text" id="Email" name="m" placeholder="Enter Email here...">
+                <input style="border-bottom:3px solid;font-size: 20px;" class="text" type="text" id="Email" name="m"
+                    placeholder="Enter Email here...">
+                <br>
 
                 <!-- <label for="birthday">DOB</label> -->
                 <input style="border-bottom:3px solid ;font-size: 20px;" type="date" id="birthday" name="birthday">
+                <br>
 
                 <!-- <label for="gender"> Select You Gender</label> -->
-                <select style="border-bottom:3px solid ;font-size: 20px;" id="gender" name="gender" >
-                    <option value="none" selected>Gender</option>
-                    <option value="male">Male</option>
-                    <option value="female">Female</option>
-                    <option value="other">other</option>
+                <select style="border-bottom:3px solid ;font-size: 20px;" id="gender" name="gender">
+                    <option class="drop" value="none" selected>Gender</option>
+                    <option class="drop" value="male">Male</option>
+                    <option class="drop" value="female">Female</option>
+                    <option class="drop" value="other">other</option>
                 </select>
+               
 
 
 
                 <!-- <label for="country">Country</label> -->
                 <select style="border-bottom:3px solid ;font-size: 20px;" id="country" name="country">
-                    <option value="none" selected>Country</option>
-                    <option value="INDIA">INDIA</option>
-                    <option value="australia">Australia</option>
-                    <option value="canada">Canada</option>
-                    <option value="usa">USA</option>
+                    <option class="drop" value="none" selected>Country</option>
+                    <option class="drop" value="INDIA">INDIA</option>
+                    <option class="drop" value="australia">Australia</option>
+                    <option class="drop" value="canada">Canada</option>
+                    <option class="drop" value="usa">USA</option>
 
                 </select>
+                <br>
 
                 <input type="submit" value="Submit">
 
