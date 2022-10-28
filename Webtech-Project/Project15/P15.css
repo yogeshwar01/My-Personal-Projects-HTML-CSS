@@ -1,7 +1,7 @@
 #parent{
     border: 1px solid;
     height: 500px;
-    width: 1282px;
+    width: 100%;
     /* align-items: left; */
     /* justify-content: end; */
 }
@@ -9,7 +9,7 @@
 .child{
     border: 1px solid;
     height: 70px;
-    width: 1282px;
+    width: 100%;
     display: flex;
     /* justify-content: space-evenly; */
 
@@ -153,7 +153,7 @@ p{
 #newbar{
     border: 1px solid;
     height: 50px;
-    width: 1282px;
+    width: 100%;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -176,7 +176,7 @@ p{
 #Search{
     border: 1px solid;
     height: 50px;
-    width: 1282px;
+    width: 100%;
     display: flex;
     
 }
@@ -211,7 +211,7 @@ p{
 #Radio{
     border: 1px solid;
     height: 50px;
-    width: 1282px;
+    width: 100%;
     display: flex;
 }
 .radio{
