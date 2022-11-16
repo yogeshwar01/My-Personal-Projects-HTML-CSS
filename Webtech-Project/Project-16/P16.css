@@ -99,7 +99,7 @@
     background-image: url(/CSS/Webtech-Project/Image/Zomato-PNG-Logo-White.png);
     background-size: cover;
    
-    margin-left: 48%;
+    margin-left: 42%;
     margin-right: 50%;
 }
 
@@ -109,8 +109,8 @@
     width: cover;
     font-size: 25px;
     /* text-align: center; */
-    /* margin-left: 30%; */
-    /* margin-right: 30%; */
+    margin-left: 25%;
+    margin-right: 25%;
     /* margin-left: 280px; */
     /* margin-top: 10px; */
     color: #ffffff;
@@ -122,7 +122,8 @@
     height: 50px;
     width: cover;
     /* display: flex; */
-    margin-left: 28%;
+    margin-left: 15%;
+    margin-right: 25%;
     /* margin-top: 20px; */
     /* background-color: #ffffff; */
     /* border-radius: 10px;
@@ -143,16 +144,16 @@
 .Location{
     /* border: 1px solid; */
     height: 50px;
-    width: 250px;;
+    width: 265px;;
     
   
 
 }
 
 .locselect{
-    padding: 15px 0px;
+    padding: 12px 0px;
     /* margin-left: 10px; */
-    /* font-size: 15px; */
+    font-size: 15px;
     background-color: #fff;
     border: none;
     outline: none;
@@ -191,7 +192,11 @@
     margin-top: 300px;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+
 }
 
 .card{
@@ -298,7 +303,7 @@
     
 }
 .food-22{
-    background-image: url(/CSS/Webtech-Project/Image/Dining.jpg);
+    background-image: url(/ResponsivCSS/CSS/Webtech-Project/Image/Dining.jpg);
 }
 .food-33{
     background-image: url(/CSS/Webtech-Project/Image/NightlLife.jpg);
@@ -332,8 +337,8 @@ color: #ffffff;
     width: 970px;
     padding: 10px;
     display: flex;
-    margin-left: 40%;
-    margin-right: 525px;
+    margin-left: 8%;
+    margin-right: 20%;
     flex-wrap: wrap;
     justify-content: space-between;
 
@@ -346,7 +351,7 @@ color: #ffffff;
     width: 294px;
     display: flex;
     flex-wrap: wrap;
-    padding: 10px;
+    padding: 0px 1px;
    
    
     
@@ -382,10 +387,15 @@ color: #ffffff;
     height: 70px;
     width: 318px;
     color: #000000;
+    
     text-decoration: none;
     border-radius: 10px;
 }
 .anchorplace:hover{
-    box-shadow: -2px 7px 10px 0px black;
+     box-shadow: 5px 2px 5px 2px #ddd;
     transform: scale(1.04);
 }
+.anchorplace:hover .Baner{
+    border:none;
+}
+
