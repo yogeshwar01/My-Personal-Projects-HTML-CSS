@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Order Form</title>
+    <link rel="stylesheet" href="./Pizza.css">
+    <script src="./script.js"></script> 
+</head>
+<body>
+    <div class="parent">
+        <div class="child">
+
+            </div>
+    <header>
+       
+        <h1 style="align-items: center;margin-left: 20%;">Pizza Form</h1>
+    </header>
+
+    <form id="myForm" name="myForm" method="post" action=" "
+        onsubmit="return validateForm();" target="_blank">
+        <input type="hidden" name="difficulty" value="1" />
+        <fieldset id="contactinfo">
+            <legend style="font-size: larger;"><strong>Personal Info</strong></legend>
+            <label for="firstnameinput">First Name:</label>
+            <input  type="text" id="firstnameinput" name="FirstName_tf" /><br>
+
+            <label for="lastnameinput">Last Name:</label>
+            <input type="text1" id="lastnameinput" name="LastName_tf" /><br>
+
+            <label for="addrinput">Address:</label>
+            <input  type="text2" id="addrinput" name="Address_tf" /><br>
+
+            <label for="phoneinput">Phone:</label>
+            <input type="text3" id="phoneinput" name="Phone_tf" /><br>
+
+            <label for="emailinput">Email Address:</label>
+            <input type="email" id="emailinput" name="Email_tf" />
+        </fieldset>
+        <fieldset id="orderinfo">
+            <legend style="font-size: larger;"><strong>Order</strong></legend>
+            <fieldset id="pizzasize">
+                <legend>Pizza Size</legend>
+                <input type="radio" id="smallsize" name="Size_rg" value="10" onclick="calculateSize(this);">
+                <label for="smallsize">Small 10"</label><br>
+                <input type="radio" id="mediumsize" name="Size_rg" value="12" onclick="calculateSize(this);">
+                <label for="mediumsize">Medium 12"</label><br>
+                <input type="radio" id="largesize" name="Size_rg" value="15" onclick="calculateSize(this);">
+                <label for="largesize">Large 15"</label>
+            </fieldset>
+            <fieldset id="toppingbox">
+                <legend>Topping(s)</legend>
+                <input type="checkbox" id="anchovies" name="Anchovies_cb" value="yes"
+                    onclick="toppingOptionPrice(this);">
+                <label for="anchovies">Anchovies</label>
+
+                <input type="checkbox" id="doublecheese" name="DoubleCheese_cb" value="yes"
+                    onclick="toppingOptionPrice(this);">
+                <label for="doublecheese">Extra Cheese</label>
+                <input type="checkbox" id="pepperoni" name="Pepperoni_cb" value="yes"
+                    onclick="toppingOptionPrice(this);">
+                <label for="pepperoni">Pepperoni</label><br>
+                <input type="checkbox" id="mushrooms" name="Mushroom_cb" value="yes"
+                    onclick="toppingOptionPrice(this);">
+                <label for="mushrooms">Mushrooms</label>
+                <input type="checkbox" id="mushrooms" name="Mushroom_cb" value="yes"
+                    onclick="toppingOptionPrice(this);">
+                <label for="mushrooms">Black olives</label>
+                <input type="checkbox" id="mushrooms" name="Mushroom_cb" value="yes"
+                    onclick="toppingOptionPrice(this);">
+                <label for="mushrooms">Green Peppers</label><br>
+                <input type="checkbox" id="mushrooms" name="Mushroom_cb" value="yes"
+                    onclick="toppingOptionPrice(this);">
+                <label for="mushrooms">Tomatos</label>
+                <input type="checkbox" id="mushrooms" name="Mushroom_cb" value="yes"
+                    onclick="toppingOptionPrice(this);">
+                <label for="mushrooms">Onions</label>
+                <input type="checkbox" id="mushrooms" name="Mushroom_cb" value="yes"
+                    onclick="toppingOptionPrice(this);">
+                <label for="mushrooms">Anchovies</label>
+            </fieldset>
+           <input class="a" type="submit" name="Submit_but">
+    </form>
+</div>
+    
+</body>
+
+</html>

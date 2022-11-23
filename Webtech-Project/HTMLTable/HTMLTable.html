@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            /*border-collapse: collapse;*/
+            width: -1%;
+            box-shadow: 19px 15px 20px -3px #333;
+
+            /* background-image: radial-gradient(circle, red, yellow, green); */
+
+
+        }
+
+        td,
+        th {
+            border: 1px solid;
+            /* border-style: dotted; */
+            text-align: center;
+            padding: 8px;
+            width: -1px;
+
+
+        }
+
+        tr:nth-child(even) {
+            background-color: #d6caca;
+
+        }
+
+        .A {
+            position: absolute;
+            top: 50%;
+            left: 30%;
+            transform: translateY(-50%);
+            width: 100%;
+            /* padding: 0 20px; */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="A">
+        <table border=1px solid; width="600px" ;height="500px">
+
+            <tr>
+                <td colspan="2">Subject</td>
+
+                <td>John Doe</td>
+                <td>Mirium Luther</td>
+
+
+            </tr>
+            <tr>
+                <td rowspan="2px">Maths</td>
+
+                <td>Practical</td>
+                <td>A</td>
+                <td>A</td>
+            </tr>
+            <tr>
+
+                <td>Theory</td>
+                <td>A+</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td rowspan="2px">Chemistry</td>
+                <td>Practical</td>
+                <td>B</td>
+                <td>C</td>
+            </tr>
+            <tr>
+
+                <td>Theory</td>
+                <td>A</td>
+                <td>C+</td>
+            </tr>
+            <tr>
+                <td rowspan="2px">Physics</td>
+                <td>Practical</td>
+                <td>A</td>
+                <td>A</td>
+            </tr>
+            <tr>
+
+                <td>Theory</td>
+                <td>A-</td>
+                <td>A-</td>
+            </tr>
+
+    </div>
+    </table>
+</body>
+
+</html>
